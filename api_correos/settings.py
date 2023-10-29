@@ -25,8 +25,12 @@ SECRET_KEY = 'django-insecure-p+tkwgf5&=d6#j0w2a4xc457f5h=f(c=j(@&zh1w@xv=(&l^6&
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['interaccion-correros.azurewebsites.net',
-                 'http://127.0.0.1:8000/']
+ALLOWED_HOSTS = [
+                 'interaccion-correros.azurewebsites.net',
+                 'http://127.0.0.1:8000/',
+                 '127.0.0.1', 
+                 'localhost',
+                ]
 
 
 # Application definition
