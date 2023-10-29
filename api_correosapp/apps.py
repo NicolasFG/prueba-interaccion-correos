@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class ApicorreoConfig(AppConfig):
+class ApiCorreosappConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'apicorreo'
+    name = 'api_correosapp'
