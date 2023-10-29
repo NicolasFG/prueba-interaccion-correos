@@ -27,7 +27,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
                  'interaccion-correros.azurewebsites.net',
-                 'http://127.0.0.1:8000/',
                  '127.0.0.1', 
                  'localhost',
                 ]
